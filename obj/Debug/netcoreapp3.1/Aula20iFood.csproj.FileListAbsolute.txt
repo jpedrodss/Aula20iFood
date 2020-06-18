@@ -1,0 +1,13 @@
+C:\Users\kermt\Documents\Projetos\Aula20iFood\bin\Debug\netcoreapp3.1\Aula20iFood.exe
+C:\Users\kermt\Documents\Projetos\Aula20iFood\bin\Debug\netcoreapp3.1\Aula20iFood.deps.json
+C:\Users\kermt\Documents\Projetos\Aula20iFood\bin\Debug\netcoreapp3.1\Aula20iFood.runtimeconfig.json
+C:\Users\kermt\Documents\Projetos\Aula20iFood\bin\Debug\netcoreapp3.1\Aula20iFood.runtimeconfig.dev.json
+C:\Users\kermt\Documents\Projetos\Aula20iFood\bin\Debug\netcoreapp3.1\Aula20iFood.dll
+C:\Users\kermt\Documents\Projetos\Aula20iFood\bin\Debug\netcoreapp3.1\Aula20iFood.pdb
+C:\Users\kermt\Documents\Projetos\Aula20iFood\obj\Debug\netcoreapp3.1\Aula20iFood.csprojAssemblyReference.cache
+C:\Users\kermt\Documents\Projetos\Aula20iFood\obj\Debug\netcoreapp3.1\Aula20iFood.csproj.CoreCompileInputs.cache
+C:\Users\kermt\Documents\Projetos\Aula20iFood\obj\Debug\netcoreapp3.1\Aula20iFood.AssemblyInfoInputs.cache
+C:\Users\kermt\Documents\Projetos\Aula20iFood\obj\Debug\netcoreapp3.1\Aula20iFood.AssemblyInfo.cs
+C:\Users\kermt\Documents\Projetos\Aula20iFood\obj\Debug\netcoreapp3.1\Aula20iFood.dll
+C:\Users\kermt\Documents\Projetos\Aula20iFood\obj\Debug\netcoreapp3.1\Aula20iFood.pdb
+C:\Users\kermt\Documents\Projetos\Aula20iFood\obj\Debug\netcoreapp3.1\Aula20iFood.genruntimeconfig.cache

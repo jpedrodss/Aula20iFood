@@ -6,7 +6,6 @@ namespace Aula20iFood
     {
         static void Main(string[] args)
         {
-            int contadorItens = 0;
 
             Restaurante rest = new Restaurante();
             rest.Endereco = "Av. Guarulhos, 123";
@@ -17,9 +16,7 @@ namespace Aula20iFood
             clt.EnderecoAtual = "R. do Bamburral, 597";
 
             Pedido pedido = new Pedido();
-            do{
-                
-            }
+            
         }
     }
 }
