@@ -9,7 +9,6 @@ namespace Aula20iFood
             Pedido pedido = new Pedido();
             Cliente clt = new Cliente();
             Restaurante rest = new Restaurante();
-            
 
             rest.NomeFantasia = "Straight Up Arroz";
             rest.Endereco = "Av. Guarulhos, 123";
@@ -19,17 +18,13 @@ namespace Aula20iFood
             clt.Nome = Console.ReadLine();
             System.Console.WriteLine($"Olá {clt.Nome}!");
             pedido.Cliente = clt.Nome;
-            clt.EnderecoAtual = "R. do Bamburral, 597";
+            System.Console.WriteLine("Digite seu endereço:");
+            clt.EnderecoAtual = Console.ReadLine();
 
-            System.Console.WriteLine("Bom dia, voce gostaria de entrar como restaurante ou pessoa?");
-            string resposta = Console.ReadLine();
-            if (resposta == "pessoa"){
-                pedido.Pedir();
-                pedido.EntregarPedido();
-            }
-            else if (resposta == "restaurante"){
-                rest.MostrarDados();
-            }
+            clt.MostrarDados();
+            
+            pedido.Pedir();
+            pedido.EntregarPedido();
 
         }
     }
