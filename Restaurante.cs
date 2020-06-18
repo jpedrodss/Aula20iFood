@@ -6,7 +6,10 @@ namespace Aula20iFood
         public string Endereco { get; set; }
 
         public string MostrarDados(){
-            return $"Nome do cliente é {NomeFantasia}, e seu endereço atual é {Endereco}.";
+            return $"Nome do restaurante é {NomeFantasia}, e seu endereço é {Endereco}.";
+        }
+        public string MostrarDados(int estrela){
+            return $"Nome do restaurante é {NomeFantasia}.\nO endereço é {Endereco}.\nO restaurante contém {estrela} estrelas michelin.";
         }
 
     }

@@ -9,6 +9,7 @@ namespace Aula20iFood
         public string Restaurante { get; set; }
         public string FormaDePGTO { get; set; }
         public bool PedidoPago { get; set; }
+        public string StatusPedido { get; set; }
         public int contadorItens = 0;
 
         public void Pedir(){
@@ -24,9 +25,9 @@ namespace Aula20iFood
                         if (contadorItens >= Itens.Length) {
                             System.Console.WriteLine("\nLimite de pedido alcançado.\n");
                         }
-
                         System.Console.WriteLine($"Confirmar o pedido com os seguintes itens? (y = sim / n = nao)\n -{Itens[0]}\n -{Itens[1]}\n -{Itens[2]}");
                         string confirmacao = Console.ReadLine();
+
                         System.Console.WriteLine($"Como deseja efetuar o pagamento?");
                         FormaDePGTO = Console.ReadLine();
                         System.Console.WriteLine($"Seu pedido será pago em {FormaDePGTO}.\n");
@@ -52,6 +53,7 @@ namespace Aula20iFood
 
         public string EntregarPedido(){
             return $"Seu pedido do cliente {Cliente}, foi entregue.";
+            
         }
     }
 }
