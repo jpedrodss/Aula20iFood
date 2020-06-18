@@ -1,4 +1,5 @@
 using System;
+
 namespace Aula20iFood
 {
     public class Pedido
@@ -26,6 +27,9 @@ namespace Aula20iFood
 
                         System.Console.WriteLine($"Confirmar o pedido com os seguintes itens? (y = sim / n = nao)\n -{Itens[0]}\n -{Itens[1]}\n -{Itens[2]}");
                         string confirmacao = Console.ReadLine();
+                        System.Console.WriteLine($"Como deseja efetuar o pagamento?");
+                        FormaDePGTO = Console.ReadLine();
+                        System.Console.WriteLine($"Seu pedido será pago em {FormaDePGTO}.\n");
 
                         if(confirmacao == "y"){
                             System.Console.WriteLine($"Pedido concluido em {DateTime.Now}.\nItens pedidos: {Itens[0]}, {Itens[1]} e {Itens[2]}.");
