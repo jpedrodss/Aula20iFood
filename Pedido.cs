@@ -5,8 +5,8 @@ namespace Aula20iFood
     public class Pedido
     {
         public string[] Itens = new string[3];
-        public string Cliente { get; set; }
-        public string Restaurante { get; set; }
+        public Cliente Cliente { get; set; }
+        public Restaurante Restaurante { get; set; }
         public string FormaDePGTO { get; set; }
         public bool PedidoPago { get; set; }
         public string StatusPedido { get; set; }
